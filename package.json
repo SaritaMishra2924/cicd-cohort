@@ -1,0 +1,18 @@
+{
+  "name": "01_project",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --runInBand"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "jest": "^30.5.2",
+    "supertest": "^7.3.0"
+  }
+}
