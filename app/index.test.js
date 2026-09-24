@@ -11,7 +11,7 @@ describe('Express routes', () => {
     const response = await request(app).get('/');
 
     expect(response.statusCode).toBe(200);
-    expect(response.text).toBe('Hello, World!');
+    expect(response.text).toBe('Hello, World! Welcome to the Express server.');
   });
 
   test('GET /:input returns the input parameter', async () => {
